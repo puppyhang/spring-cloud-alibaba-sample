@@ -32,6 +32,10 @@
                     <artifactId>dubbo-common</artifactId>
                     <groupId>org.apache.dubbo</groupId>
                 </exclusion>
+                <exclusion>
+                    <artifactId>dubbo-remoting-api</artifactId>
+                    <groupId>org.apache.dubbo</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
